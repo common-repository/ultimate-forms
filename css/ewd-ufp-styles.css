@@ -1,0 +1,153 @@
+
+.ewd-ufp-form {
+width: 100%;
+padding: 15px 0px 15px 0px;
+}
+
+.ewd-ufp-hidden {
+display:none !important;
+}
+
+.ewd-ufp-clear {
+clear:both;
+}
+
+.ewd-ufp-question {
+margin-top: 30px;
+float: left;
+}
+
+.ewd-ufp-question-header.Side_By_Side {
+display: inline-block;
+float: left;
+width: 180px;
+margin-bottom: 3px;
+}
+
+.ewd-ufp-question-header.Stacked {
+display: inline-block;
+}
+
+.ewd-ufp-question-title.Side_By_Side {
+display: inline-block;
+margin-left: 8px;
+width: calc(100% - 36px);
+}
+
+.ewd-ufp-question-title.Stacked {
+display: inline-block;
+margin-left: 5px;
+}
+
+.ewd-ufp-answer-option span {
+margin-left: 5px;
+}
+
+.ewd-ufp-answer-options {
+width: 100%;
+max-width: 600px;
+}
+
+.ewd-ufp-answer-options.Side_By_Side textarea {
+width: 100%;
+}
+
+.ewd-ufp-answer-options.Stacked textarea {
+width: 100%;
+max-width: 813;
+
+}
+
+.ewd-ufp-answer-options select {
+width: auto;
+}
+
+.ewd-ufp-form input[type="text"] {
+width: 100%;
+}
+
+.ewd-ufp-question-instructions.Side_By_Side {
+color: darkgray;
+line-height: 12px;
+}
+
+.ewd-ufp-question-instructions.Stacked {
+color: darkgray;
+}
+
+.ewd-ufp-question-icon {
+float: left;
+}
+
+.button-primary.Side_By_Side {
+margin-top: 40px;
+float: left;
+clear: both;
+}
+
+.button-primary.Stacked {
+margin-top: 40px;
+}
+
+.ewd-ufp-input-and-instructions.Side_By_Side {
+float: left;
+width: calc(100% - 180px);
+margin-bottom: 20px;
+
+}
+
+.ewd-ufp-page-navigation {
+	cursor: pointer;
+}
+
+/******************************************
+      MEDIA QUERY FOR SIDE BY SIDE
+*******************************************/
+
+@media only screen and (max-width: 768px) {
+.ewd-ufp-input-and-instructions.Side_By_Side {
+width: 100%;
+margin-left: 3px;
+}
+
+.ewd-ufp-question-header.Side_By_Side {
+width: 100%;
+margin-bottom: 8px;
+}
+
+.ewd-ufp-question-header.Side_By_Side {
+width: 100%;
+margin-bottom: 8px;
+}
+  
+}
+
+
+
+/*******************
+NEXT PREVIOUS LINKS
+*******************/
+.ewd-ufp-page-navigation {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 10px 0;
+	padding: 6px 8px;
+	background: #999;
+	color: #fff;
+}
+.ewd-ufp-page-navigation:hover {
+	background: #717171;
+}
+.ewd-ufp-next-page {
+	float: right;
+}
+.ewd-ufp-next-page:after {
+	content: " »";
+}
+.ewd-ufp-previous-page {
+	float: left;	
+}
+.ewd-ufp-previous-page:before {
+	content: "« ";
+}
